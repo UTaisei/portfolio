@@ -1,0 +1,62 @@
+/*画面一杯に描画する*/
+html,body {
+    margin:0px; padding:0px; height:100%;
+ }
+ /*ボックスの高さを最低でも1画面分にする*/
+ div.pagebox {
+    min-height: 100%;
+ }
+ /*各画面の装飾(背景色)*/
+ #homeP { background-color: #ffffcc; }
+ #page1 { background-color: #ccffff; }
+ #page2 { background-color: #ffcccc; }
+ #page3 { background-color: #ccccff; }
+ #page4 { background-color: bisque; }
+ #page5 { background-color: aliceblue;}
+ /**/
+ /*大きさ*/
+ html{
+    width: auto;
+    text-align: center;
+ }
+ img{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+ }
+ /**/
+ /*ホバーリンク*/
+nav ul{
+    display: table;
+    margin: 0 auto;
+    padding: 0 ;
+    width: 80%;
+    text-align: center;
+}
+nav li{
+    display: table-cell;
+    min-width: 50px;
+    }
+
+nav a{
+    display: block;
+    width: 100%;
+    text-decoration:none;
+    color: black;
+    padding-bottom: 5px;
+}
+nav li.current{
+    border-bottom: 3px solid #92D050;
+    }
+
+nav li:hover{
+    color: #E7DA66;
+    border-bottom: 3px solid #F0E475;
+}
+/**/
+/*文字装飾*/
+h2{
+    color:black;
+    border-bottom: 0.3rem solid gray ;
+}
+/**/
